@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HPCL3gnUFmAlhblGAdAQ4kTj2ydM7inoFzx8g0JwK7A5F4BiFl6zPCjtm/2RFL0ueh1h4Krm55uxowFEQ42aTA==",
+  "success": true,
+  "projectFilePath": "C:\\Dot.Net\\Api\\FlowersApi\\FlowersApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
