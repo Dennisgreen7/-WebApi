@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -37,6 +38,10 @@ namespace FlowersApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.Run(async context =>
+           {
+               await context.Response.WriteAsync("Dennis " + DateTime.Now);
+           });
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -54,6 +59,11 @@ namespace FlowersApi
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private Task async(HttpContext context)
+        {
+            throw new NotImplementedException();
         }
     }
 }
